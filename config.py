@@ -9,11 +9,11 @@ from itchatmp.content import TEXT,SAFE
 
 logging.basicConfig(level=logging.DEBUG, format='[%(asctime)s] [%(levelname)s] [%(name)s] %(message)s')
 itchatmp.update_config(itchatmp.WechatConfig(
-    token='W4jcMkLSnO3jAiFs434MaG',
-    copId='wx6ea71abb13481848',
-    appSecret='pimbBsWhKSX7OnODx3v0pLN8cocR5SOBmeMAP5jdLIQ',
+    token='xxx',
+    copId='xxx',
+    appSecret='xxx',
     encryptMode=itchatmp.content.SAFE,
-    encodingAesKey='p1pINcRhEjRBnPXaeaUgrL6Nag8fixm4gvzOwxf8hTR', ))
+    encodingAesKey='xxxxx', ))
 
 def getDate():
     now = datetime.datetime.now().strftime("%Y%m%d")
